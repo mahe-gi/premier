@@ -262,3 +262,146 @@ body {
   text-transform: capitalize;
   color: #000000c3;
 }
+#shot-text {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  padding: 0px 4vw;
+}
+#shot-text h2 {
+  font-family: premier-bold;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2vw;
+  word-spacing: 3px;
+}
+#page3 {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7vh 4vw;
+}
+#page3 .l-p3 {
+  padding: 1vw 2vw;
+  height: 90%;
+  width: 40%;
+}
+
+#page3 .l-p3 .circluarTxt {
+  height: 80%;
+  width: 100%;
+  position: relative;
+}
+.circluarTxt > img {
+  height: 100%;
+  width: 100%;
+}
+
+#page3 .r-p3 {
+  height: 90%;
+  width: 50%;
+}
+#page3 .r-p3 > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#page3 .l-p3 .l-p3-txt {
+  height: 30%;
+  width: 90%;
+}
+#page3 .l-p3 .l-p3-txt > p {
+  font-size: 1.5vw;
+}
+#page4 {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1vw 0.5vw;
+}
+#page4 .imgwrapper {
+  height: 100%;
+  width: 90%;
+  background-color: red;
+}
+#page4 .imgwrapper > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#page5 {
+  height: 90%;
+  width: 100%;
+  text-align: center;
+  padding: 0px 5vw;
+}
+#page5 > h2 {
+  font-family: premier-bold;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 5vh;
+}
+.p5-update {
+  height: 15vh;
+  width: 100%;
+  border-top: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.p5-update > img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 10%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  cursor: pointer;
+}
+.p5-update:hover img {
+  left: 30%;
+  opacity: 100;
+}
+.p5-update:hover {
+  background-color: #e8e8e891;
+}
+.p5-update > h5 {
+  width: 6%;
+  text-align: start;
+  font-size: 1.2vw;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.p5-r {
+  width: 50%;
+  text-align: start;
+}
+.p5-r > h4 {
+  font-size: 3vw;
+  font-weight: 400;
+}
+.p5-r > h6 {
+  font-size: 1vw;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.p5-update:nth-last-child(1) {
+  border-bottom: 2px solid black;
+}
